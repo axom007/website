@@ -1,6 +1,6 @@
 # Allow all crawlers to access everything
 User-agent: *
-Allow: /
+Disallow: /
 
 # Sitemap for better indexing
 Sitemap: https://yadavshreya6.github.io/website/sitemap.xml
