@@ -4,22 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="Kaiora: India's first homegrown luxury house for precision wristwatches, innovative ring-watches, and evocative perfumes. Discover authentic craftsmanship and timeless elegance." />
-  <title>Kaiora</title>
+    <title>Kaiora - Luxury Brand</title>
+    <meta name="description" content="Portfolio of Kaiora showcasing luxury brand of three products, watches, perfumes, and ringwatches.">
+    <meta name="keywords" content="Kaiora, portfolio, luxury brand, accessory brand, luxury, watches, ringwatches, ring watch, perfume">
+    <meta name="author" content="Shreya Yadav">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="Favicon.png" type="image/x-png">
   <link rel="stylesheet" href="mainpage.css">
   <meta name="google-site-verification" content="xL68gysQcdfQByPdgAjRAVHm_kD4kpfNm5q54ABQWEE" />
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ENjdO4Dr2bkBIFxQpeoA6DQD5NqQ1hLzZr2d6U8Yy5n00v8+2QF8VQe5F5r5t5g5" crossorigin="anonymous">
 </head>
 <body>
   <div class="custom-cursor"></div>
-  
   <div class="loading-page">
     <div class="counter">
       <p>Kaiora</p><hr/>
     </div>
   </div>
-
-    <div class="menu-panel">
+  <div class="menu-panel">
     <nav class="menu-items">
       <a href="lifestyle.html" class="menu-link">KAIORA LIFESTYLE</a>
       <a href="personalisation.html" class="menu-link">MY KAIORA</a>
@@ -27,118 +30,127 @@
       <a href="contact-us.html" class="menu-link">CONTACT US</a>
     </nav>
   </div>
-
   <div class="scroll-indicator">
     <div class="scroll-dot active" data-section="0"></div>
     <div class="scroll-dot" data-section="1"></div>
     <div class="scroll-dot" data-section="2"></div>
     <div class="scroll-dot" data-section="3"></div>
   </div>
-
   <div id="main-content">
-    <header class="site-header">
-      <button class="menu-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
-      
-      <a href="#" class="logo">KAIORA</a>
-      <div class="header-actions">
-        <a href="loginpage.html" class="login-link" aria-label="Login" style="display:inline-flex;align-items:center;margin-right:0.5rem;">
-          <svg class="person-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="8" r="4"/>
-            <path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
-          </svg>
-        </a>
-        <button class="theme-toggle" aria-label="Toggle theme">
-          <svg class="theme-icon" viewBox="0 0 24 24">
-            <path class="sun-icon" d="M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,2L14.39,5.42C13.65,5.15 12.84,5 12,5C11.16,5 10.35,5.15 9.61,5.42L12,2M3.34,7L7.5,6.65C6.9,7.16 6.36,7.78 5.94,8.5C5.5,9.24 5.25,10 5.11,10.79L3.34,7M3.36,17L5.12,13.21C5.26,14 5.53,14.78 5.95,15.5C6.37,16.24 6.91,16.86 7.5,17.37L3.36,17M20.65,7L18.88,10.79C18.74,10 18.47,9.24 18.05,8.5C17.63,7.78 17.1,7.15 16.5,6.64L20.65,7M20.64,17L16.5,17.36C17.09,16.85 17.62,16.22 18.04,15.5C18.46,14.77 18.73,14 18.87,13.21L20.64,17Z"/>
-            <path class="moon-icon" style="display:none;" d="M17.75,4.09L15.22,6.03L16.13,9.09L13.5,7.28L10.87,9.09L11.78,6.03L9.25,4.09L12.44,4L13.5,1L14.56,4L17.75,4.09M21.25,11L19.61,12.25L20.2,14.23L18.5,13.06L16.8,14.23L17.39,12.25L15.75,11L17.81,10.95L18.5,9L19.19,10.95L21.25,11M18.97,15.95C19.8,15.87 20.69,17.05 20.16,17.8C19.84,18.25 19.5,18.67 19.08,19.07C15.17,23 8.84,23 4.94,19.07C1.03,15.17 1.03,8.83 4.94,4.93C5.34,4.53 5.76,4.17 6.21,3.85C6.96,3.32 8.14,4.21 8.06,5.04C7.79,7.9 8.75,10.87 10.95,13.06C13.14,15.26 16.1,16.22 18.97,15.95M17.33,17.97C14.5,17.81 11.7,16.64 9.53,14.5C7.36,12.31 6.2,9.5 6.04,6.68C3.23,9.82 3.34,14.4 6.35,17.41C9.37,20.43 14,20.54 17.33,17.97Z"/>
-          </svg>
-        </button>
-        <button class="search-btn" aria-label="Search">
-          <svg viewBox="0 0 24 24"><path d="M15.5,14h-0.79l-0.28-0.27A6.471,6.471,0,0,0,16,9.5,6.5,6.5,0,1,0,9.5,16a6.471,6.471,0,0,0,4.23-1.57l0.27,0.28v0.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.505,4.505,0,0,1,9.5,14Z"/></svg>
-        </button>
+    <header class="site-header container-fluid py-3">
+      <div class="row align-items-center">
+        <div class="col-auto">
+          <button class="menu-toggle btn btn-outline-secondary me-2" aria-label="Open menu"><span></span><span></span><span></span></button>
+        </div>
+        <div class="col">
+          <a href="#" class="logo navbar-brand">KAIORA</a>
+        </div>
+        <div class="col-auto d-flex align-items-center">
+          <a href="loginpage.html" class="login-link btn btn-link p-0 me-2" aria-label="Login">
+            <svg class="person-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="4"/>
+              <path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
+            </svg>
+          </a>
+          <button class="theme-toggle btn btn-link p-0 me-2" aria-label="Toggle theme">
+            <svg class="theme-icon" viewBox="0 0 24 24">
+              <path class="sun-icon" d="M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,2L14.39,5.42C13.65,5.15 12.84,5 12,5C11.16,5 10.35,5.15 9.61,5.42L12,2M3.34,7L7.5,6.65C6.9,7.16 6.36,7.78 5.94,8.5C5.5,9.24 5.25,10 5.11,10.79L3.34,7M3.36,17L5.12,13.21C5.26,14 5.53,14.78 5.95,15.5C6.37,16.24 6.91,16.86 7.5,17.37L3.36,17M20.65,7L18.88,10.79C18.74,10 18.47,9.24 18.05,8.5C17.63,7.78 17.1,7.15 16.5,6.64L20.65,7M20.64,17L16.5,17.36C17.09,16.85 17.62,16.22 18.04,15.5C18.46,14.77 18.73,14 18.87,13.21L20.64,17Z"/>
+              <path class="moon-icon" style="display:none;" d="M17.75,4.09L15.22,6.03L16.13,9.09L13.5,7.28L10.87,9.09L11.78,6.03L9.25,4.09L12.44,4L13.5,1L14.56,4L17.75,4.09M21.25,11L19.61,12.25L20.2,14.23L18.5,13.06L16.8,14.23L17.39,12.25L15.75,11L17.81,10.95L18.5,9L19.19,10.95L21.25,11M18.97,15.95C19.8,15.87 20.69,17.05 20.16,17.8C19.84,18.25 19.5,18.67 19.08,19.07C15.17,23 8.84,23 4.94,19.07C1.03,15.17 1.03,8.83 4.94,4.93C5.34,4.53 5.76,4.17 6.21,3.85C6.96,3.32 8.14,4.21 8.06,5.04C7.79,7.9 8.75,10.87 10.95,13.06C13.14,15.26 16.1,16.22 18.97,15.95M17.33,17.97C14.5,17.81 11.7,16.64 9.53,14.5C7.36,12.31 6.2,9.5 6.04,6.68C3.23,9.82 3.34,14.4 6.35,17.41C9.37,20.43 14,20.54 17.33,17.97Z"/>
+            </svg>
+          </button>
+          <button class="search-btn btn btn-link p-0" aria-label="Search">
+            <svg viewBox="0 0 24 24"><path d="M15.5,14h-0.79l-0.28-0.27A6.471,6.471,0,0,0,16,9.5,6.5,6.5,0,1,0,9.5,16a6.471,6.471,0,0,0,4.23-1.57l0.27,0.28v0.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.505,4.505,0,0,1,9.5,14Z"/></svg>
+          </button>
+        </div>
       </div>
     </header>
-
-    <div class="product-container">
-      <section class="product-section watches-section">
-        <div class="hero-fade-slideshow">
-          <img class="hero-fade-img active" src="watch1final.png" alt="Kaiora Watches" />
-          <img class="hero-fade-img" src="womenwatch3.png" alt="Kaiora Watches 2" />
-        </div>
-        <div class="product-content">
-          <p class="product-pretitle">KAIORA PRESENTS</p>
-          <h1 class="product-title">SIGNATURE OF SECONDS</h1>
-          <p class="product-subtitle">THE CHRONOSPHERE</p>
-          <a href="watches.html" class="btn">
-            <div class="btn-content">
-              <span class="btn-text">Discover Watches</span>
-              <span class="btn-arrow">→</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="product-section perfumes-section">
-        <div class="hero-fade-slideshow perfume-fade-slideshow">
-          <img class="hero-fade-img active" src="perfume1male.png" alt="Kaiora Perfumes 1" />
-          <img class="hero-fade-img" src="perfume1female.png" alt="Kaiora Perfumes 2" />
-        </div>
-        <div class="product-content">
-          <p class="product-pretitle">KAIORA UNVEILS</p>
-          <h1 class="product-title">ESSENCE OF ARTISTRY</h1>
-          <p class="product-subtitle">THE FRAGRANCE COLLECTION</p>
-          <a href="perfumes.html" class="btn">
-            <div class="btn-content">
-              <span class="btn-text">Immerse in Perfumes</span>
-              <span class="btn-arrow">→</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="product-section rings-section">
-        <div class="hero-fade-slideshow rings-fade-slideshow">
-          <img class="hero-fade-img active" src="ring watches 2.png" alt="Kaiora Ring Watches 1" />
-          <img class="hero-fade-img" src="ringwatches2.png" alt="Kaiora Ring Watches 2" />
-        </div>
-        <div class="product-content">
-          <p class="product-pretitle">KAIORA SHOWCASES</p>
-          <h1 class="product-title">CIRCLES OF MASTERY</h1>
-          <p class="product-subtitle">THE RING COLLECTION</p>
-          <a href="ringwatch.html" class="btn">
-            <div class="btn-content">
-              <span class="btn-text">Delve into Rings</span>
-              <span class="btn-arrow">→</span>
-            </div>
-          </a>
-        </div>
-      </section>
-
-      <section class="product-section about-section">
-        <div class="about-content">
-          <h2>About Kaiora</h2>
-          <p>Born from the quiet ingenuity of a family workshop high in the Himalayan foothills, Kaiora weaves together three generations of heartfelt craftsmanship into every creation. As India's first homegrown luxury house uniting precision wristwatches, innovative ring‑watches, and evocative perfumes, we honor the hands that shaped our heritage and the stones, silks, and scents that tell our story.</p>
-          <br>
-          <p>Each timepiece, fragrance, and ring‑watch carries the soul of those early artisans—bearing witness to a journey of humble beginnings, subtle refinements, and bold new horizons. More than accessories, our collections serve as vessels of authentic emotion: reminders of shared memories, markers of personal milestones, and tokens of timeless connection.</p>
-        </div>
-        
-        <div class="contact-footer">
-          <h3>Connect with Kaiora</h3>
-          <div class="contact-info">
-            <div class="contact-item">hello@kaiora.com</div>
-            <div class="contact-item">+91 8448336608</div>
-            <div class="contact-item">Geneva, Switzerland</div>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+          <div class="product-container">
+            <section class="product-section watches-section row align-items-center mb-5">
+              <div class="col-12 col-md-6">
+                <div class="hero-fade-slideshow">
+                  <img class="hero-fade-img active img-fluid" src="watch1final.png" alt="Kaiora Watches" />
+                  <img class="hero-fade-img img-fluid" src="womenwatch3.png" alt="Kaiora Watches 2" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="product-content text-center text-md-start">
+                  <p class="product-pretitle">KAIORA PRESENTS</p>
+                  <h1 class="product-title">SIGNATURE OF SECONDS</h1>
+                  <p class="product-subtitle">THE CHRONOSPHERE</p>
+                  <a href="watches.html" class="btn btn-primary">
+                    <span class="btn-text">Discover Watches</span>
+                    <span class="btn-arrow">→</span>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="product-section perfumes-section row align-items-center mb-5">
+              <div class="col-12 col-md-6 order-md-2">
+                <div class="hero-fade-slideshow perfume-fade-slideshow">
+                  <img class="hero-fade-img active img-fluid" src="perfume1male.png" alt="Kaiora Perfumes 1" />
+                  <img class="hero-fade-img img-fluid" src="perfume1female.png" alt="Kaiora Perfumes 2" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6 order-md-1">
+                <div class="product-content text-center text-md-start">
+                  <p class="product-pretitle">KAIORA UNVEILS</p>
+                  <h1 class="product-title">ESSENCE OF ARTISTRY</h1>
+                  <p class="product-subtitle">THE FRAGRANCE COLLECTION</p>
+                  <a href="perfumes.html" class="btn btn-primary">
+                    <span class="btn-text">Immerse in Perfumes</span>
+                    <span class="btn-arrow">→</span>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="product-section rings-section row align-items-center mb-5">
+              <div class="col-12 col-md-6">
+                <div class="hero-fade-slideshow rings-fade-slideshow">
+                  <img class="hero-fade-img active img-fluid" src="ring watches 2.png" alt="Kaiora Ring Watches 1" />
+                  <img class="hero-fade-img img-fluid" src="ringwatches2.png" alt="Kaiora Ring Watches 2" />
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="product-content text-center text-md-start">
+                  <p class="product-pretitle">KAIORA SHOWCASES</p>
+                  <h1 class="product-title">CIRCLES OF MASTERY</h1>
+                  <p class="product-subtitle">THE RING COLLECTION</p>
+                  <a href="ringwatch.html" class="btn btn-primary">
+                    <span class="btn-text">Delve into Rings</span>
+                    <span class="btn-arrow">→</span>
+                  </a>
+                </div>
+              </div>
+            </section>
+            <section class="product-section about-section row align-items-center mb-5">
+              <div class="col-12 col-lg-8 mx-auto">
+                <div class="about-content text-center">
+                  <h2>About Kaiora</h2>
+                  <p>Born from the quiet ingenuity of a family workshop high in the Himalayan foothills, Kaiora weaves together three generations of heartfelt craftsmanship into every creation. As India's first homegrown luxury house uniting precision wristwatches, innovative ring‑watches, and evocative perfumes, we honor the hands that shaped our heritage and the stones, silks, and scents that tell our story.</p>
+                  <br>
+                  <p>Each timepiece, fragrance, and ring‑watch carries the soul of those early artisans—bearing witness to a journey of humble beginnings, subtle refinements, and bold new horizons. More than accessories, our collections serve as vessels of authentic emotion: reminders of shared memories, markers of personal milestones, and tokens of timeless connection.</p>
+                </div>
+                <div class="contact-footer mt-4">
+                  <h3>Connect with Kaiora</h3>
+                  <div class="contact-info mb-2">
+                    <div class="contact-item">hello@kaiora.com</div>
+                    <div class="contact-item">+91 8448336608</div>
+                    <div class="contact-item">Geneva, Switzerland</div>
+                  </div>
+                  <div class="social-links">
+                    <a href="https://www.instagram.com/kaioraofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn btn btn-outline-secondary btn-sm me-2">Instagram</a>
+                    <a href="#" class="social-btn btn btn-outline-secondary btn-sm me-2">Facebook</a>
+                    <a href="#" class="social-btn btn btn-outline-secondary btn-sm">Twitter</a>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
-          <div class="social-links">
-            <a href="https://www.instagram.com/kaioraofficial?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn">Instagram</a>
-            <a href="#" class="social-btn">Facebook</a>
-            <a href="#" class="social-btn">Twitter</a>
-            
-          </div>
         </div>
-
-        
-      </section>
+      </div>
     </div>
   </div>
 
