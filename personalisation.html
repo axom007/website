@@ -7,55 +7,73 @@
         <meta name="description" content="Kaiora: India's first homegrown luxury house for precision wristwatches, innovative ring-watches, and evocative perfumes. Discover authentic craftsmanship and timeless elegance." />
     <title>Kaiora Your Kaiora - Your Kaiora</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-        <!-- Bootstrap 5 CSS -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ENjdO4Dr2bkBIFxQpeoA6DQD5NqQ1hLzZr2d6U8Yy5n00v8+2QF8VQe5F5r5t5g5" crossorigin="anonymous">
-        <link href="personalisation.css" rel="stylesheet">
+    <link rel="stylesheet" href="personalisation.css">
     <link rel="icon" href="Favicon.png" type="image/x-png">
 </head>
 <body>
-    <div class="progress"></div>
-    <div class="menu-overlay"></div>
-    <div class="menu-panel">
-        <nav class="menu-items">
-            <a href="index.html" class="menu-link">Home</a>
-            <a href="lifestyle.html" class="menu-link">KAIORA LIFESTYLE</a>
-            <a href="personalisation.html" class="menu-link">MY KAIORA</a>
-            <a href="inspiring authenticity.html" class="menu-link">INSPIRING Authenticity</a>
-            <a href="contact-us.html" class="menu-link">CONTACT US</a>
-        </nav>
-    </div>
-    <div class="container-fluid py-3">
-        <div class="row align-items-center">
-            <div class="col-auto">
-                <button class="menu-toggle btn btn-outline-secondary me-2" aria-label="Open menu"><span></span><span></span><span></span></button>
+  <div class="progress"></div>
+  <div class="menu-overlay"></div>
+  
+  <div class="menu-panel">
+    <nav class="menu-items">
+      <a href="index.html" class="menu-link">Home</a>
+      <a href="lifestyle.html" class="menu-link">KAIORA LIFESTYLE</a>
+      <a href="personalisation.html" class="menu-link">MY KAIORA</a>
+      <a href="inspiring authenticity.html" class="menu-link">INSPIRING Authenticity</a>
+      <a href="contact-us.html" class="menu-link">CONTACT US</a>
+    </nav>
+  </div>
+    <div class="overscroll-bounce">
+        <div class="scroll-indicator" id="scrollIndicator"></div>
+
+             <!-- Kaiora Header -->
+        <header class="site-header">
+            <button class="menu-toggle" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="search-dropdown">
+                <div class="product-category">
+                    <h3 class="category-heading">Watches</h3>
+                    <p class="category-description">Experience silent luxury with our timeless collection of expertly crafted timepieces, where elegance meets understated sophistication.</p>
+                </div>
+                <div class="product-category">
+                    <h3 class="category-heading">Perfumes</h3>
+                    <p class="category-description">Discover your signature scent from our curated collection of artisanal fragrances, each telling its own unique story.</p>
+                </div>
+                <div class="product-category">
+                    <h3 class="category-heading">Ring Watches</h3>
+                    <p class="category-description">Blend sophistication with innovation through our collection of ring watches, where composed elegance meets contemporary design.</p>
+                </div>
             </div>
-            <div class="col">
-                <a href="index.html" class="logo navbar-brand">KAIORA</a>
-            </div>
-            <div class="col-auto d-flex align-items-center">
-                <a href="loginpage.html" class="login-link btn btn-link p-0 me-2" aria-label="Login">
-                    <svg class="person-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="8" r="4"/>
-                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
-                    </svg>
-                </a>
-                <button class="read-aloud-btn btn btn-link p-0 me-2" aria-label="Read aloud">
+            <a href="index.html" class="logo">KAIORA</a>
+            <div class="header-actions">
+                <a href="loginpage.html" class="login-link" aria-label="Login" style="display:inline-flex;align-items:center;margin-right:0.5rem;">
+          <svg class="person-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="8" r="4"/>
+            <path d="M4 20c0-4 4-6 8-6s8 2 8 6"/>
+          </svg>
+        </a>
+                <button class="read-aloud-btn" aria-label="Read aloud">
                     <span class="read-icon">Aa</span>
                 </button>
-                <button class="theme-toggle btn btn-link p-0 me-2" aria-label="Toggle theme">
+                
+                <button class="theme-toggle" aria-label="Toggle theme">
                     <svg class="theme-icon" viewBox="0 0 24 24">
                         <path class="sun-icon" d="M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M12,2L14.39,5.42C13.65,5.15 12.84,5 12,5C11.16,5 10.35,5.15 9.61,5.42L12,2M3.34,7L7.5,6.65C6.9,7.16 6.36,7.78 5.94,8.5C5.5,9.24 5.25,10 5.11,10.79L3.34,7M3.36,17L5.12,13.21C5.26,14 5.53,14.78 5.95,15.5C6.37,16.24 6.91,16.86 7.5,17.37L3.36,17M20.65,7L18.88,10.79C18.74,10 18.47,9.24 18.05,8.5C17.63,7.78 17.1,7.15 16.5,6.64L20.65,7M20.64,17L16.5,17.36C17.09,16.85 17.62,16.22 18.04,15.5C18.46,14.77 18.73,14 18.87,13.21L20.64,17Z"/>
                         <path class="moon-icon" d="M17.75,4.09L15.22,6.03L16.13,9.09L13.5,7.28L10.87,9.09L11.78,6.03L9.25,4.09L12.44,4L13.5,1L14.56,4L17.75,4.09M21.25,11L19.61,12.25L20.2,14.23L18.5,13.06L16.8,14.23L17.39,12.25L15.75,11L17.81,10.95L18.5,9L19.19,10.95L21.25,11M18.97,15.95C19.8,15.87 20.69,17.05 20.16,17.8C19.84,18.25 19.5,18.67 19.08,19.07C15.17,23 8.84,23 4.94,19.07C1.03,15.17 1.03,8.83 4.94,4.93C5.34,4.53 5.76,4.17 6.21,3.85C6.96,3.32 8.14,4.21 8.06,5.04C7.79,7.9 8.75,10.87 10.95,13.06C13.14,15.26 16.1,16.22 18.97,15.95M17.33,17.97C14.5,17.81 11.7,16.64 9.53,14.5C7.36,12.31 6.2,9.5 6.04,6.68C3.23,9.82 3.34,14.4 6.35,17.41C9.37,20.43 14,20.54 17.33,17.97Z"/>
                     </svg>
                 </button>
-                <button class="search-btn btn btn-link p-0" aria-label="Search">
+            
+                <button class="search-btn" aria-label="Search">
                     <svg viewBox="0 0 24 24"><path d="M15.5,14h-0.79l-0.28-0.27A6.471,6.471,0,0,0,16,9.5,6.5,6.5,0,1,0,9.5,16a6.471,6.471,0,0,0,4.23-1.57l0.27,0.28v0.79l5,4.99L20.49,19Zm-6,0A4.5,4.5,0,1,1,14,9.5,4.505,4.505,0,0,1,9.5,14Z"/></svg>
                 </button>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="header-content text-center">
+        </header>
+
+        <!-- Header - Black Section -->
+        <header class="header">
+            <div class="container">
+                <div class="header-content">
                     <div class="brand-name">Your Kaiora</div>
                     <h1 class="main-title">Personalisation</h1>
                     <p class="subtitle">Crafted to reflect your essence, perfected for your world.</p>
