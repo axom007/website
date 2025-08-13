@@ -1387,3 +1387,26 @@ body {
       .modal-3d-canvas { width: 99vw; height: 45vh; min-width: 160px; min-height: 120px; }
       .modal-3d-title { font-size: 1rem; margin-top: 8px; }
     }
+
+  /* Additional responsive refinements */
+  @media (max-width: 1024px) {
+    .header { padding: 0.75rem 1rem; }
+    .menu-panel { width: 360px; }
+    .hero { height: auto; padding: 120px 0 60px; }
+    .hero-content { gap: 2rem; padding: 0 1.25rem; }
+    .scroll-indicator { display: none; }
+    .watch-grid { grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; }
+  }
+
+  @media (max-width: 768px) {
+    .search-dropdown { width: 95vw; right: 50%; left: 50%; transform: translate(-50%, 0); }
+    .btn, .design-btn { width: 100%; text-align: center; }
+    .design-interface { grid-template-columns: 1fr; gap: 2rem; }
+  }
+
+  @media (max-width: 480px) {
+    .logo { letter-spacing: 4px; }
+    .header-actions { gap: 0.5rem; }
+    .hero { padding: 100px 0 40px; }
+    .section-title, .designer-title { font-size: 1.75rem; }
+  }
